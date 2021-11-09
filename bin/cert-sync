@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /data/ft_local/mono-6.10/bin/mono $MONO_OPTIONS /data/ft_local/mono-6.10/lib/mono/4.5/cert-sync.exe "$@"

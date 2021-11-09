@@ -1,0 +1,9 @@
+prefix=/data/ft_local/mono-6.10
+exec_prefix=${prefix}
+libdir=/data/ft_local/mono-6.10/lib
+sourcesdir=${libdir}/monodoc/sources
+
+Name: Monodoc
+Description: Monodoc - Mono Documentation Tools
+Version: 6.10.0.104
+Libs: /r:${prefix}/lib/mono/monodoc/monodoc.dll 

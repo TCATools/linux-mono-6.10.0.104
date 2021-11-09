@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /data/ft_local/mono-6.10/bin/pedump $MONO_OPTIONS --verify metadata,code "$@"
